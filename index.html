@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>E-Journals</title>
+	<meta charset="UTF-8">
+	<meta name="description" content="Academica Learning Page Template">
+	<meta name="keywords" content="academica, unica, creative, html">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Favicon -->
+	<link href="assets/img/favicon.ico" rel="shortcut icon" />
+
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Raleway:400,400i,500,500i,600,600i,700,700i,800"
+		rel="stylesheet">
+
+	<!-- Stylesheets -->
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+	<link rel="stylesheet" href="assets/css/font-awesome.min.css" />
+	<link rel="stylesheet" href="assets/css/flaticon.css" />
+	<link rel="stylesheet" href="assets/css/owl.carousel.css" />
+	<link rel="stylesheet" href="assets/css/style.css" />
+
+
+	<!--[if lt IE 9]>
+	  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+	  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
+
+	<!-- Material Design Bootstrap -->
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.10/css/mdb.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@7.28.11/dist/sweetalert2.min.css">
+
+</head>
+
+<body>
+	<!-- Page Preloder -->
+	<div id="preloder">
+		<div class="loader"></div>
+	</div>
+
+	<!-- Header section -->
+	<header class="header-section">
+		<div class="header-warp">
+			<div class="container">
+				<a href="#" class="site-logo">
+					<img src="assets/img/logo.png" alt="">
+				</a>
+				<div class="user-panel">
+					<a data-toggle="modal" data-target="#modalLRForm">Login/Register</a>
+				</div>
+				<div class="nav-switch">
+					<i class="fa fa-bars"></i>
+				</div>
+			</div>
+		</div>
+	</header>
+	<!-- Header section end -->
+
+
+	<!-- Hero section -->
+	<section class="hero-section set-bg" data-setbg="assets/img/bg.jpg">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-7">
+					<div class="hero-text text-white">
+						<h2>About Journals</h2>
+						<p>An academic or scholarly journal is a periodical publication in which scholarship relating to a particular academic discipline is published. Academic journals serve as permanent and transparent forums for the presentation, scrutiny, and discussion of research. </p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Hero section end -->
+
+
+
+	<!-- Footer section -->
+	<footer class="footer-section spad pb-0">
+		<div class="container">
+			<div class="footer-bottom">
+
+				<div class="social">
+					<a href=""><i class="fa fa-pinterest"></i></a>
+					<a href=""><i class="fa fa-facebook"></i></a>
+					<a href=""><i class="fa fa-twitter"></i></a>
+					<a href=""><i class="fa fa-dribbble"></i></a>
+					<a href=""><i class="fa fa-behance"></i></a>
+					<a href=""><i class="fa fa-linkedin"></i></a>
+				</div>
+				<ul class="footer-menu">
+					<li><a href="#">Home</a></li>
+					<li><a href="#">About us</a></li>
+					<li><a href="#">Courses</a></li>
+					<li><a href="#">Courses</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+				<div class="footer-logo">
+					<a href="#">
+						<img src="assets/img/footer-logo.png" alt="">
+					</a>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-12">
+					<p class="text-white  text-center">
+						<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+						Copyright &copy;
+						<script>document.write(new Date().getFullYear());</script> All rights reserved | This template
+						is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com"
+							target="_blank">Colorlib</a>
+						<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+					</p>
+				</div>
+
+			</div>
+		</div>
+	</footer>
+	<!-- Footer section end -->
+
+	<!--Modal: Login / Register Form-->
+	<div class="modal fade" id="modalLRForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+		aria-hidden="true">
+		<div class="modal-dialog cascading-modal" role="document">
+			<!--Content-->
+			<div class="modal-content">
+
+				<!--Modal cascading tabs-->
+				<div class="modal-c-tabs">
+
+					<!-- Nav tabs -->
+					<ul class="nav nav-tabs md-tabs tabs-2 light-blue darken-3" role="tablist">
+						<li class="nav-item">
+							<a class="nav-link active" data-toggle="tab" href="#panel7" role="tab"><i
+									class="fa fa-user mr-1"></i>
+								Login</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" data-toggle="tab" href="#panel8" role="tab"><i
+									class="fa fa-user-plus mr-1"></i>
+								Register</a>
+						</li>
+					</ul>
+
+					<!-- Tab panels -->
+					<div class="tab-content">
+						<!--Panel 7-->
+						<div class="tab-pane fade in show active" id="panel7" role="tabpanel">
+
+							<!--Body-->
+							<div class="modal-body mb-1">
+								<div class="md-form form-sm mb-5">
+									<i class="fa fa-user prefix"></i>
+									<input type="text" id="login-username" class="form-control form-control-sm validate"
+										required>
+									<label data-error="wrong" data-success="right" for="login-username">Username
+									</label>
+								</div>
+
+								<div class="md-form form-sm mb-4">
+									<i class="fa fa-lock prefix"></i>
+									<input type="password" id="login-password"
+										class="form-control form-control-sm validate" required>
+									<label data-error="wrong" data-success="right" for="login-password">Your
+										password</label>
+								</div>
+								<div class="text-center mt-2">
+									<button class="btn btn-info" type="button" id="login">Log in <i
+											class="fa fa-sign-in ml-1"></i></button>
+								</div>
+							</div>
+							<!--Footer-->
+						</div>
+						<!--/.Panel 7-->
+
+						<!--Panel 8-->
+						<div class="tab-pane fade" id="panel8" role="tabpanel">
+
+							<!--Body-->
+							<div class="modal-body">
+								<div class="md-form form-sm mb-5">
+									<i class="fa fa-user prefix"></i>
+									<input type="text" id="username" class="form-control form-control-sm validate"
+										name="username" required onkeyup="checkUsername()">
+									<label for="username">User
+										Name</label>
+									<span id="errorMsg"
+										style="color: red;margin-top: -7%;display: none;font-size: small;"><i
+											class="fa fa-exclamation-circle"></i> username already taken</span>
+								</div>
+								<div class="md-form form-sm mb-5">
+									<i class="fa fa-mobile prefix"></i>
+									<input type="text" id="fullname" class="form-control form-control-sm validate"
+										required>
+									<label data-error="wrong" data-success="right" for="fullname">Full Name
+									</label>
+								</div>
+								<div class="md-form form-sm mb-5">
+									<i class="fa fa-envelope prefix"></i>
+									<input type="email" id="email" class="form-control form-control-sm validate"
+										required>
+									<label data-error="wrong" data-success="right" for="email">Your
+										email</label>
+								</div>
+
+								<div class="md-form form-sm mb-5">
+									<i class="fa fa-graduation-cap prefix"></i>
+									<input type="text" id="qualification" class="form-control form-control-sm validate"
+										required>
+									<label data-error="wrong" data-success="right" for="qualification">Your
+										Qualification</label>
+								</div>
+
+								<div class="md-form form-sm mb-4">
+									<i class="fa fa-lock prefix"></i>
+									<input type="password" id="password" class="form-control form-control-sm validate"
+										required>
+									<label data-error="wrong" data-success="right" for="password">
+										Password</label>
+								</div>
+
+								<div class="md-form form-sm mb-4">
+									<i class="fa fa-lock prefix"></i>
+									<input type="password" id="confirm_password"
+										class="form-control form-control-sm validate" required>
+									<label data-error="wrong" data-success="right" for="confirm_password">Confirm
+										Password</label>
+								</div>
+
+								<div class="custom-control custom-checkbox custom-control-inline">
+									<input type="checkbox" class="custom-control-input" id="scholar"
+										onclick="display()">
+									<label class="custom-control-label" for="scholar"> I'm a research
+										scholar</label>
+								</div>
+
+								<div class="md-form form-sm mb-5" id="journal-type-sec" style="display: none;">
+									<i class="fa fa-file prefix"></i>
+									<input type="text" id="journal_type" class="form-control form-control-sm validate"
+										required>
+									<label data-error="wrong" data-success="right" for="journal_type">Research Title
+									</label>
+								</div>
+
+								<div class="md-form form-sm mb-5" id="doi-sec" style="display: none;">
+									<i class="fa fa-address-card prefix"></i>
+									<input type="text" id="doi" class="form-control form-control-sm validate" required>
+									<label data-error="wrong" data-success="right" for="doi">DOI Number
+									</label>
+								</div>
+
+								<div class="md-form form-sm mb-5" id="paper-sec" style="display: none;">
+									Select Research Paper
+									<input type="file" id="paper" class="form-control form-control-sm validate"
+										required>
+								</div>
+
+								<div class="md-form form-sm mb-5" id="yop-sec" style="display: none;">
+									<i class="fa fa-calendar prefix"></i>
+									<input type="text" id="yop" class="form-control form-control-sm validate" required>
+									<label data-error="wrong" data-success="right" for="yop">Year Of Publication
+									</label>
+								</div>
+
+								<div class="text-center form-sm mt-2">
+									<button class="btn btn-info" type="button" id="register">Sign up <i
+											class="fa fa-sign-in ml-1"></i></button>
+								</div>
+							</div>
+							<!--Footer-->
+							<div class="modal-footer">
+								<button type="button" class="btn btn-outline-info waves-effect ml-auto"
+									data-dismiss="modal">Close</button>
+							</div>
+						</div>
+						<!--/.Panel 8-->
+					</div>
+
+				</div>
+			</div>
+			<!--/.Content-->
+		</div>
+	</div>
+	<!--Modal: Login / Register Form-->
+
+
+	<!--====== Javascripts & Jquery ======-->
+	<script src="assets/js/jquery-3.2.1.min.js"></script>
+	<script src="assets/js/bootstrap.min.js"></script>
+	<script src="assets/js/owl.carousel.min.js"></script>
+	<script src="assets/js/circle-progress.min.js"></script>
+	<script src="assets/js/main.js"></script>
+	<!-- Bootstrap tooltips -->
+	<script type="text/javascript"
+		src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+	<!-- MDB core JavaScript -->
+	<script type="text/javascript"
+		src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.10/js/mdb.min.js"></script>
+	<script type="text/javascript"
+		src="https://cdn.jsdelivr.net/npm/sweetalert2@7.28.11/dist/sweetalert2.min.js"></script>
+
+	<script>
+
+		function checkUsername() {
+			let username = $('#username').val();
+
+			let data = {
+				username: username
+			};
+
+			$.ajax({
+				type: 'POST',
+				url: 'checkUsername.php',
+				data: data,
+
+				success: function (res) {
+					if (res == 'exists') {
+						document.getElementById('errorMsg').style.display = "block";
+					} else {
+						document.getElementById('errorMsg').style.display = "none";
+					}
+				},
+
+				error: function (res) {
+
+				}
+			})
+		}
+
+		var doi = '-';
+		var paper = '-';
+		var yop = '-';
+		var journal_type = '-';
+		var status = 0;
+		var flag = false;
+
+		function display() {
+			if (document.getElementById('scholar').checked) {
+				$('#doi-sec').show();
+				$('#paper-sec').show();
+				$('#yop-sec').show();
+				$('#journal-type-sec').show();
+				flag = true;
+
+			} else {
+				$('#doi-sec').hide();
+				$('#paper-sec').hide();
+				$('#yop-sec').hide();
+				$('#journal-type-sec').hide();
+				flag = false;
+			}
+		}
+
+		$('#register').click(function (e) {
+			e.preventDefault();
+
+			let username = $('#username').val();
+			let fullname = $('#fullname').val();
+			let email = $('#email').val();
+			let qualification = $('#qualification').val();
+			let password = $('#password').val();
+			let confirm_password = $('#confirm_password').val();
+
+			if (flag) {
+				doi = $('#doi').val();
+				paper = $('#paper')[0].files[0];
+				yop = $('#yop').val();
+				journal_type = $('#journal_type').val();
+				status = 1;
+			}
+
+			if (password != confirm_password) {
+				Swal.fire(
+					'Oops...!',
+					'The two passwords does not match',
+					'error'
+				)
+				return;
+			}
+
+			// console.log(username + fullname + email + qualification + password + confirm_password + doi + yop + journal_type + paper);
+
+			let dataOb = {
+				username: username,
+				fullname: fullname,
+				email: email,
+				qualification: qualification,
+				password: password,
+				doi: doi,
+				paper: paper,
+				yop: yop,
+				journal_type: journal_type,
+				status: status
+			};
+
+			let data = new FormData();
+
+			for (key in dataOb) {
+				data.append(key, dataOb[key]);
+			}
+
+			$.ajax({
+				type: 'POST',
+				url: 'user-registeration.php',
+				data: data,
+				contentType: false,
+				processData: false,
+
+				success: function (response) {
+					if (response == 'success') {
+						Swal.fire(
+							'Success',
+							'You have successfully registered',
+							'success'
+						)
+						setTimeout(function () {
+							window.location.reload();
+						}, 2000);
+					} else {
+						Swal.fire(
+							'Oops...!',
+							'Error while registering',
+							'error'
+						)
+					}
+				},
+
+				error: function (response) {
+					Swal.fire(
+						'Oops...!',
+						'Error while registering',
+						'error'
+					)
+				}
+			});
+		});
+
+		$('#login').click(function (e) {
+			e.preventDefault();
+
+			let username = $('#login-username').val();
+			let password = $('#login-password').val();
+
+			if (username === "" || password === "") {
+				Swal.fire(
+					'Oops...!',
+					'Username or Password cannot be empty',
+					'warning'
+				)
+			}
+
+			let data = {
+				username: username,
+				password: password
+			};
+
+			$.ajax({
+				type: 'POST',
+				url: 'verifyLogin.php',
+				data: data,
+
+				success: function (response) {
+					console.log(response);
+
+					if (response == 'error') {
+						Swal.fire(
+							'Oops...!',
+							'Invalid Credentials...!',
+							'error'
+						)
+					} else {
+						response = JSON.parse(response);
+						let status = response[5];
+						let username = response[0];
+						if (status == 1)
+							window.location.href = 'guidePage.php?username=' + username;
+
+						if (status == 0){
+							checkRequestStatus(username);
+						}
+					}
+				},
+
+				error: function (response) {
+					Swal.fire(
+						'Oops...!',
+						'Error while logging in',
+						'error'
+					)
+				}
+			});
+		});
+
+		function checkRequestStatus(username){
+			let data = {
+				s_username: username
+			}
+
+			$.ajax({
+				type: 'POST',
+				url: 'checkAcceptedOrNot.php',
+				data: data,
+
+				success: function(response){
+					if(response === "" || response === "pending")
+						window.location.href = 'studentPage.php?username=' + username;
+					else
+						window.location.href = 'guidePapers.php?username=' + username;
+
+				},
+				error: function(response){
+					//console.log("error = " + JSON.stringify(response));
+				}
+			})
+		}
+
+	</script>
+
+</body>
+
+</html>
